@@ -1,0 +1,50 @@
+Número: 	74
+Habitantes: 	8
+Dirección: 	jgbngjnb gbnjnj jnjn
+Consumo: 	105.75
+
+Número: 	60
+Habitantes: 	7
+Dirección: 	dfgfdg fgfdg fg
+Consumo: 	114.3
+
+Número: 	48
+Habitantes: 	7
+Dirección: 	dfgfw w wwww
+Consumo: 	100.2
+
+Número: 	63
+Habitantes: 	5
+Dirección: 	fgdfgdf dfgfdg fdgdfg
+Consumo: 	106.8
+
+Número: 	50
+Habitantes: 	4
+Dirección: 	jhkjhk kjhkjhjk hjkhjk
+Consumo: 	127.8
+
+Número: 	54
+Habitantes: 	2
+Dirección: 	yuyuy yuy uy hjh
+Consumo: 	186.0
+
+Número: 	78
+Habitantes: 	2
+Dirección: 	gfhgfh gfhfgh ghgfh
+Consumo: 	93.6
+
+Número: 	46
+Habitantes: 	2
+Dirección: 	hgjhgj ghjghjhgj ghjghjhgj
+Consumo: 	120.45
+
+Número: 	61
+Habitantes: 	1
+Dirección: 	hgh ghg hg 
+Consumo: 	126.6
+
+Número: 	77
+Habitantes: 	1
+Dirección: 	kgmbkgmb kmbkgb fvfv
+Consumo: 	108.3
+

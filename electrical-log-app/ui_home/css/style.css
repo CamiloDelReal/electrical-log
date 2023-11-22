@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	overflow:hidden;
+	/*background:#990066;*/
+	margin:0px;
+}
+#content{
+	background:url(../img/home_center_1.png);
+	width:778px;
+	height:285px;
+	margin:0px;
+	padding:0px;
+}
+#content div{
+	float:left;
+}
+
+.lateral{
+	width:44px;
+	height:285px;
+}
+.center{
+	width:60px;
+	height:285px;
+}
+
+.block_buttons{
+	width:180px;
+	height:285px;
+}
+
+.button{
+	width:180px;
+	height:240px;
+	padding-left:5px;
+}
+.button a,img{
+	width:180px;
+	height:125px;
+}
+.button a{
+	display:block;
+	position:relative;
+	top:115px;
+	z-index:3;
+}
+
+.label{
+	width:180px;
+	height:45px;
+	padding-left:5px;
+}
+.label h2{
+	position:relative;
+	bottom:15px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-weight:lighter;
+}
+
+.tooltips{
+	width:150px;
+	height:95px;
+	background:url(../img/tooltips.png);
+	position:relative;
+	padding: 5px 20px 0px 20px;
+	z-index:2;
+	top:-180px;
+}
+.tooltips p{
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+	text-align:center;
+}

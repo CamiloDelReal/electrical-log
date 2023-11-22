@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.tooltips').css({opacity:0});
+	});
+	function upButton(idButton, idTooltip){
+			$(idButton).animate({top:105}, 100);
+			$(idTooltip).animate({top:-275, opacity:1}, 300);
+	}
+	
+	function downButton(idButton, idTooltip){
+			$(idButton).animate({top:115}, 100);
+			$(idTooltip).animate({top:-180, opacity:0}, 300);
+	}
+</script>
+
+</head>
+
+<body>
+	<div id="content">
+    	<div id="separator" class="lateral"></div>
+        
+        <div id="block_houses" class="block_buttons">
+        	<div id="button_house" class="button"><a href="#" onclick="" onmouseover="upButton('#button_house a', '#tooltip_house')" onmouseout="downButton('#button_house a', '#tooltip_house')"><img src="img/button_houses.png" /></a></div>
+            <div id="label_house" class="label"><h2>Hogares</h2></div>
+            <div id="tooltip_house" class="tooltips"><p>Acceso al registro de hogares</p></div>
+        </div>
+        
+        <div id="separator" class="center"></div>
+        
+        <div id="block_consumptions" class="block_buttons">
+        	<div id="button_consumption" class="button"><a href="#" onclick="" onmouseover="upButton('#button_consumption a', '#tooltip_consumption')" onmouseout="downButton('#button_consumption a', '#tooltip_consumption')"><img src="img/button_consumptions.png" /></a></div>
+            <div id="label_consumption" class="label"><h2>Consumos</h2></div>
+            <div id="tooltip_consumption" class="tooltips"><p>Acceso al registro de consumos</p></div>
+        </div>
+        
+        <div id="separator" class="center"></div>
+        
+        <div id="block_report" class="block_buttons">
+        	<div id="button_report" class="button"><a href="#" onclick="" onmouseover="upButton('#button_report a', '#tooltip_report')" onmouseout="downButton('#button_report a', '#tooltip_report')"><img src="img/button_reports.png" /></a></div>
+            <div id="label_report" class="label"><h2>Reportes</h2></div>
+            <div id="tooltip_report" class="tooltips"><p>Genere reportes</p></div>
+        </div>
+        
+        <div id="separator" class="lateral"></div>
+    </div>
+</body>
+</html>
